@@ -1,0 +1,49 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# CLion
+.idea
+cmake-*
+
+# VSCode
+.vscode
+
+# CMake-generated files
+cmake_install.cmake
+Makefile
+**/CMakeFiles/
+CMakeCache.txt
+cpp/external/googletest/googletest/generated/
+
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+bins
+build
